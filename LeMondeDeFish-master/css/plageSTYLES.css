@@ -1,0 +1,216 @@
+
+
+.fishphoto{
+	position: absolute;
+	right: 1px;
+	bottom: 270px;
+	width: 100px;
+	height: 100px;
+	transform: scaleX(-1);
+}
+
+.fishquiparle{
+	font-family: Comic Sans MS;
+    color: 		#F6DC12;
+    width: 450px;
+	font-weight: bold;
+	font-size: 1em;
+	position: absolute;
+	top: 92px;
+		}
+
+.LienWikiglouglouplage{
+	color: #ADD8E6
+	  }
+
+.LienWikiglouglouplage:hover{
+	background-image: url(https://media0.giphy.com/media/l4Jz19hgVBnCCM8uY/giphy.gif?cid=790b76115d0f44ca62527a7759302861&rid=giphy.gif);
+	color: white;
+}
+
+.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+
+
+
+
+
+.hommedroleplagecaleconrouge{
+	position: absolute;
+	bottom: 155px;
+	left: 200px;
+}
+.hommebouee{
+	position: absolute;
+	top: 175px;
+	left: 300px;
+}
+
+.femmequivasebaigner{
+	position: absolute;
+	top: 150px;
+	left: 600px;
+
+}
+
+.hommeboueebleumer{
+	position: absolute;
+	top: 205px;
+	left: 820px;
+}
+
+.bouteillekohlanta{
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	right: 200px;
+	bottom: 50px;
+}
+
+.vin{
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	right: 250px;
+	bottom: 50px;
+}
+
+.bouteilleblanche{
+	width: 48px;
+	height: 96px;
+	position: absolute;
+	right: 300px;
+	bottom: 45px;
+}
+.bouteilleavecunpeudeau{
+	width: 25px;
+	height: 100px;
+	position: absolute;
+	right: 450px;
+	bottom: 40px;
+	transform:rotate(90deg)
+}
+
+.plastique{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 600px;
+	bottom: 40px;
+
+}
+
+.papierdechet{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 700px;
+	top: 500px;
+}	
+
+.banane{
+	width: 50px;
+	height:50px;
+	position: absolute;
+	right: 725px;
+	top: 440px;
+}
+
+
+.canetterouge{
+	width: 50px;
+	height: 25px;
+	position: absolute;
+	right: 820px;
+	top: 380px;
+}
+
+.canettecoca{
+	width: 25px;
+	height: 50px;
+	position: absolute;
+	right: 920px;
+	top: 320px;
+}
+
+
+.pommedechet{
+	width: 25px;
+	height: 50px;
+	position: absolute;
+	right: 30px;
+	bottom: 20px; 
+	transform:rotate(90deg)
+	   }
+
+.serviettebleublanche{
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	left: 5px;
+	bottom: 50px;
+}	   
+body{
+
+	background-image: url(https://media0.giphy.com/media/sfjfPOe8DKptm/giphy.gif?cid=790b76115d01104f63722e537353271b&rid=giphy.gif);
+	background-size: 1550px;
+			background-repeat: no-repeat;
+}
+
+
+/*MEDIA QUERIES!!!! */
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (IPAD) */
+@media all and (max-width: 1024px) and (orientation: landscape)
+{
+	.fishphoto{
+	position: absolute;
+	right: 1px;
+	bottom: 310px;
+	width: 50px;
+	height: 50px;
+	transform: scaleX(-1);
+
+}
+
+.fishquiparle{
+	font-family: Comic Sans MS;
+    color: 		#F6DC12;
+    width: 450px;
+	font-weight: bold;
+	font-size: 0.85em;
+	position: absolute;
+	top: 92px;
+		}
+
+}
+	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-device-width : 480px)  and (orientation: portrait)
+{
+	.fishquiparle{
+	font-family: Comic Sans MS;
+    color: #F6DC12;
+    width: 450px;
+	font-weight: bold;
+	font-size: 1em;
+	position: absolute;
+	top: 92px;
+		}
+
+		body{
+
+	background-image: url(https://media0.giphy.com/media/sfjfPOe8DKptm/giphy.gif?cid=790b76115d01104f63722e537353271b&rid=giphy.gif);
+	background-size: 2550px;
+			background-repeat: no-repeat;
+}
+
+
+}

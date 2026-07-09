@@ -1,0 +1,87 @@
+
+.fishphoto{
+	position: absolute;
+	left: 1px;
+	bottom: 320px;
+	width: 100px;
+	height: 100px;
+}
+
+.fishquiparle{
+	text-align: left;
+	width: 450px;
+	font-family: Comic Sans MS;
+    color: black;
+	font-weight: bold;
+	font-size: 1em;
+	position: absolute;
+	top: 50px;
+	}
+
+.lesfleches {
+    position:relative;
+    bottom: -480px;
+    height: 100px;
+}
+
+.flechedroitealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 3px;
+    bottom: 0px;
+}
+.flechedroitealeatoire img {
+    transform:rotate(180deg)
+}
+.lesfleches img {
+    width:100%
+}
+
+
+.piranhamdr{
+	position: absolute;
+	left: 800px;
+	bottom: 400px;
+	width: 200px;
+	height: 100px;
+
+}
+
+.joliepoisson{
+	position: absolute;
+	left: 400px;
+	bottom: 50px;
+	width: 200px;
+	height: 100px;
+
+}
+
+
+
+
+
+.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+body{
+	background-image: url("../img/poupeepave.jpg");
+	background-repeat: no-repeat;
+}

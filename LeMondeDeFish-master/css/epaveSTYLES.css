@@ -1,0 +1,136 @@
+.fishphoto{
+	position: absolute;
+	left: 1px;
+	bottom: 350px;
+	width: 100px;
+	height: 100px;
+}
+
+.fishquiparle{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 1em;
+	position: absolute;
+	top: 25px;
+	color: #61380B;
+	 }
+
+.LienWikiglouglouEpave{
+	color: #2A0A0A;
+}
+.LienWikiglouglouEpave:hover{
+	background-image: url(https://media0.giphy.com/media/l4Jz19hgVBnCCM8uY/giphy.gif?cid=790b76115d0f44ca62527a7759302861&rid=giphy.gif);
+	color: white;
+}
+
+.bateau{
+	width: 	100px;
+	height: 100px;
+	position: absolute;
+	right:  1000px;
+	bottom: 402px; 
+	  }
+
+.poissonrougefille{
+width: 200px;
+height: 100px;
+position: absolute;
+right: 0px;
+bottom: 40px;
+}	  
+
+.poissonjaunebleubulle{
+	width: 128px;
+	height: 83px;
+	position: absolute;
+	left: 3px;
+	bottom: 40px;
+}
+
+
+.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+body{
+	background-image:url(https://thumbs.gfycat.com/MistyDefenselessBarebirdbat-size_restricted.gif);
+		background-size: 1500px;
+			background-repeat: no-repeat; 
+
+}
+
+/*MEDIA QUERIES!!!! */
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
+@media all and (max-width: 1024px) and (orientation: landscape)
+{
+	.fishphoto{
+	position: absolute;
+	left: 1px;
+	bottom: 450px;
+	width: 50px;
+	height: 50px;
+}
+
+.fishquiparle{
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 1em;
+	position: absolute;
+	top: 25px;
+	color: #61380B;
+	 }
+	 .bateau{
+	width: 	70px;
+	height: 90px;
+	position: absolute;
+		right:  895px;
+	bottom: 402px; 
+	  }
+
+.poissonrougefille{
+width: 100px;
+height: 50px;
+position: absolute;
+right: 0px;
+bottom: 40px;
+}	  
+
+.poissonjaunebleubulle{
+	width: 64px;
+	height: 41.5px;
+	position: absolute;
+	left: 3px;
+	bottom: 40px;
+}
+
+
+.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+
+
+
+
+}

@@ -1,0 +1,58 @@
+.fishphoto{
+	position: absolute;
+	left: 600px;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	
+}
+
+.fishquiparle{
+	font-family: Comic Sans MS;
+    color: white;
+	font-weight: bold;
+	font-size: 1em;
+	position: absolute;
+	top: 10px;
+	left: 370px;
+	width: 580px;
+	}
+
+
+.lesfleches {
+    position:relative;
+    bottom: -80px;
+    height:100px;
+  
+}
+.flechegauchealeatoire{
+    display:block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 3px;
+    bottom: 0px;    
+}
+
+.lesfleches img {
+    width:100%
+}
+
+
+
+.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+
+
+body{
+	background-image: url(../img/superstructure.jpg);
+	background-repeat: no-repeat;	
+}

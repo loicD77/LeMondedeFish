@@ -1,0 +1,131 @@
+body{
+	background-image: url("../img/Continentplastique.JPG");
+	background-size: 1600px;
+			background-repeat: no-repeat; 
+	  }
+
+
+
+
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 100px;
+	height: 100px;
+	margin-top: 0.5em;
+	
+}
+
+.fishquiparle { /*dialogue de fish qui présente son monde*/
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	font-size: 1em;	
+	color: white;
+	width: 300px;
+	background-color: grey;
+}
+
+.LienWikiglouglouContientplastique{
+color: black;
+}
+.LienWikiglouglouContientplastique:hover{
+	background-image: url(https://media0.giphy.com/media/l4Jz19hgVBnCCM8uY/giphy.gif?cid=790b76115d0f44ca62527a7759302861&rid=giphy.gif);
+	color: white;
+}
+
+
+.Oceanacceuil{
+		position: absolute;
+	top: 0px;
+	right: 0px;
+	background-image: url(https://media.giphy.com/media/uxbIr5yajuWti/giphy.gif);
+	color: white;
+	display: inline-block;
+list-style-type: none;
+text-decoration: none;
+}
+
+
+/*MEDIA QUERIES*/
+/*En dessous, on codera pour les écrans inférieurs à un pc (PARTIE QUI BUG !!!!!!) */
+@media all and (max-width: 1370px) and (orientation: landscape)
+
+{
+	.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: 0.5em;
+	
+}
+p{
+	font-size: 0.95em;
+}
+
+body{
+	background-image: url("../img/Continentplastique.JPG");
+	background-size: 2050px;
+			background-repeat: no-repeat; 
+	  }
+
+
+}
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
+@media all and (max-width: 979px)
+{
+
+	.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: 0.5em;
+	
+}
+	p, .fishquiparle{
+	font-size: 0.85em;
+	width: 250px;
+	  }
+
+      }	  
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
+@media all and (max-width: 767px)
+{
+
+	
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: 0.5em;
+	
+}
+	p,.fishquiparle{
+	font-size: 0.75em;
+	width: 200px;
+	  }
+  }
+
+	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 480px)
+{
+
+	.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: 0.5em;
+	
+}
+	p,.fishquiparle{
+	font-size: 0.7em;
+	color: orange;
+	width: 150px;
+	  }
+	  
+
+	  body{
+	background-image: url("../img/Continentplastique.JPG");
+	background-size: 1600px;
+			background-repeat: no-repeat; 
+	  }
+
+	  }
+
+
+

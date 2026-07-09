@@ -1,0 +1,615 @@
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	width: 600px;
+
+}
+
+.presentation{
+margin-top: -2%;
+}
+
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 100px;
+	height: 100px;	
+
+}
+
+
+body{ /*caractéristiques de  la page d'acceuil*/
+			background-image: url(https://cdn.pixabay.com/photo/2017/08/09/18/23/underwater-2615376__340.jpg);
+			background-size: 3800px;
+			background-repeat: no-repeat; 
+			color: white;
+		}
+h1 /*titre*/
+{   
+font-family: Verdana;
+ color: blue;
+	text-decoration: underline;
+	background-image: url(https://www.gifmania.be/Gif-Animes-Objets/Animations-Jouets/Images-Gif-Des-Bulles-De-Savon/Des-Bulles-De-Savon-89541.gif);
+     background-repeat: no-repeat;
+     width: 280px;}		
+p{
+	font-family: Georgia;
+	font-size: 2em;
+}
+
+/*organisation du menu "début" */
+ nav{ /*menu droit et nom au centre, sa taille, la bordure, son fond etc..*/
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+	align-items: center;
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
+	width: 380px;
+	border: 3px blue dashed;
+}
+
+.presentationfishquiparle, .presentation{
+	color: white;
+}
+
+.cliquezici{
+color: blue;
+
+}
+/*couleur nom bouton, écart, enlevement des puces etc.. "début" */
+
+a{
+	color: blue;
+}
+
+.Politique{ 
+	background-color: white;
+margin-left: 1em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	
+
+
+
+	
+}
+
+
+.Contact{
+	background-color: white;
+	margin-left: 2em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+.Solidarité{
+	background-color: white;
+	margin-left: 3em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+
+/*couleur nom bouton, écart, enlevement des puces etc.. "fin" */
+
+/*animation clic "début"*/
+.Accueil:hover{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: white;
+	
+	
+}
+.Politique:hover{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: blue;
+	   }
+
+.Contact:hover{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}	
+
+.Solidarité:hover{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}   
+.cliquezici:hover{
+	background-image: url(https://media3.giphy.com/media/3oz8xur099boo4N9aU/200w.webp?cid=790b76115d1b2ef952766b4a4d9468cc&rid=200w.webp);
+	background-repeat: no-repeat;
+	background-size: 450px;
+}
+/*animation clic "fin"*/	   
+/*organisation du menu "fin" */
+
+.miseajour{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: blue;
+	font-family: Comic Sans MS;
+	font-size: 2em;
+
+}
+
+footer{
+	color: blue;
+	background-color: black;
+	width: 380px;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.droits{
+	font-size: 1em;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+
+
+ /*MEDIA QUERIES*/
+
+@media all and (max-width: 1024px) and (min-width: 1023px) and (max-height: 1366px) and (min-height: 1365px)
+	{
+		p{
+			color: pink
+		}
+	}
+/*En dessous, on codera pour les écrans inférieurs à un pc , ici: Ipad normal paysage; (PARTIE QUI BUG !!!!!!) */
+@media all and (max-width: 1367px) and (orientation: landscape)
+{
+	p{
+		font-size: 1.9em; /* Taille spécial pour cette partie !!*/
+		display: flex;
+		flex-wrap: wrap;
+		background-color: yellow;
+}
+
+}
+
+ 
+
+
+
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (grande tablette) */
+@media all and (max-width: 979px) and (orientation: landscape)
+{
+	p{
+		font-size: 1.5em; /* Taille paragraphe pour inf à 979px*/
+		display: flex;
+		flex-wrap: wrap;
+		background-color: green;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: -18px;	
+}
+
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+
+	 
+/*animation clic "début"*/
+.Accueil:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: white;
+	
+	
+}
+.Politique:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: blue;
+	   }
+
+.Contact:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}	
+
+.Solidarité:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}  
+
+.cliquezici:active{
+	background-image: url(https://media3.giphy.com/media/3oz8xur099boo4N9aU/200w.webp?cid=790b76115d1b2ef952766b4a4d9468cc&rid=200w.webp);
+	background-repeat: no-repeat;
+	background-size: 450px;
+} 
+/*animation clic "fin"*/	   
+/*organisation du menu "fin" */
+
+
+.miseajour{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: blue;
+	font-family: Comic Sans MS;
+	font-size: 1.8em;
+
+}
+
+footer{
+	font-size: 0.8em;
+	color: blue;
+	background-color: black;
+	width: 250px;
+	height: 30px;
+	position: absolute; 
+	bottom: 0px;
+	left: 0px;   }
+
+	  }
+
+/*En dessous, on codera pour les écrans inférieurs à un pc (petite tablette) */
+@media all and (max-width: 767px) and (orientation: landscape)
+{
+	p{
+		font-size: 1.2em; /* Taille paragraphe pour inf à 767px*/
+		display: flex;
+		flex-wrap: wrap;
+		background-color: red;
+}
+
+
+h1 {
+	font-size: 1.2em;
+	width: 180px;
+}
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: -18px;	
+}
+
+nav{ /*menu droit et nom au centre, sa taille, la bordure, son fond etc..*/
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+	align-items: center;
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
+	width: 300px;
+	border: 3px blue dashed;
+}
+
+.presentationfishquiparle, .presentation{
+	color: white;
+}
+
+.cliquezici{
+color: blue;
+
+}
+/*couleur nom bouton, écart, enlevement des puces etc.. "début" */
+
+a{
+	color: blue;
+}
+
+
+.Politique{ 
+	background-color: white;
+	margin-left: 0.4em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+
+	
+}
+
+
+.Contact{
+	background-color: white;
+	margin-left: 0.8em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.Solidarité{
+	background-color: white;
+	margin-left: 1.2em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+
+	 
+/*animation clic "début"*/
+.Accueil:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: white;
+	
+	
+}
+.Politique:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: blue;
+	   }
+
+.Contact:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}	
+
+.Solidarité:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}   
+/*animation clic "fin"*/	   
+/*organisation du menu "fin" */
+
+
+.miseajour{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: blue;
+	font-family: Comic Sans MS;
+	font-size: 1.2em;
+
+}
+
+footer{
+	font-size: 0.6em;
+	color: blue;
+	background-color: black;
+	width: 230px;
+	height: 30px;
+	position: absolute; 
+	bottom: 0px;
+	left: 0px;   }
+  }
+
+	/*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 480px) and (orientation: portrait)
+{
+	p{
+		font-size: 1em; /* Taille paragraphe pour inf à 480px*/
+		display: flex;
+		flex-wrap: wrap;
+		background-color: orange;
+
+}
+
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: 8%;	
+}
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	width: 300px;
+margin-top: 8%;	
+}
+
+.presentation{
+margin-top: 6%;
+width: 300px;
+}
+ nav{ /*TAILLE DU MENU AVEC SA BORDURE*/
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
+width:  230px;
+height: 30px;
+border: 3px blue dashed;
+margin-top: 50px;
+}
+
+footer{
+	color: blue;
+	background-color: black;
+	width: 380px;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.droits{
+	font-size: 1em;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+.miseajour{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: blue;
+	font-family: Comic Sans MS;
+	font-size: 1em;
+
+}
+
+.Politique{ 
+	background-color: white;
+	margin-left: 0em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+	
+}
+
+
+.Contact{
+	background-color: white;
+	margin-left: 1em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+}
+
+.Solidarité{
+	background-color: white;
+	margin-left: 1.2em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+}
+h1 {
+	font-size: 1em;
+	width: 150px;
+}
+
+ 
+
+.fishphoto{ /*la jolie photo de notre beau poisson*/
+	width: 50px;
+	height: 50px;
+	margin-top: -18px;	
+}
+
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+
+	 
+/*animation clic "début"*/
+.Accueil:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: white;
+	
+	
+}
+.Politique:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+	color: blue;
+	   }
+
+.Contact:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}	
+
+.Solidarité:active{
+	background-image: url(https://www.gifmania.fr/Gif-Animes-Paysages/Animations-Vagues/Vagues-84343.gif);
+}   
+/*animation clic "fin"*/	   
+/*organisation du menu "fin" */
+
+
+.miseajour{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: blue;
+	font-family: Comic Sans MS;
+	font-size: 1em;
+
+}
+
+footer{
+	font-size: 0.5em;
+	color: blue;
+	background-color: black;
+	width: 200px;
+	height: 30px;
+	position: absolute; 
+	bottom: 0px;
+	left: 0px;   }
+	  }
+
+	  
+	  /*INVERSE/*
+
+	  /*En dessous, on codera pour les écrans inférieurs à un pc (téléphone) */
+@media all and (max-width: 823px) and (orientation: landscape)
+{
+
+p{
+		font-size: 0.8em; /* Taille paragraphe pour inf à 480px*/
+		display: flex;
+		flex-wrap: wrap;
+		background-color: pink;
+		  }
+		  
+.presentationfishquiparle /*dialogue de fish*/
+{
+	font-weight: bold;
+	width: 300px;
+margin-top: 3%;
+font-size: 	
+}
+
+footer{
+	font-size: 0.5em;
+	color: blue;
+	background-color: black;
+	width: 250px;
+	height: 30px;
+	position: absolute; 
+	bottom: 0px;
+	left: 0px;   }
+
+
+nav{ /*TAILLE DU MENU AVEC SA BORDURE*/
+	background-image: url(https://cdn.pixabay.com/photo/2018/01/16/10/29/waters-3085701__340.jpg);
+width:  230px;
+height: 30px;
+border: 3px blue dashed;
+margin-top: 50px;
+}
+
+.Politique{ 
+	background-color: white;
+	margin-left: 0em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+	
+}
+
+
+.Contact{
+	background-color: white;
+	margin-left: 1em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+}
+
+.Solidarité{
+	background-color: white;
+	margin-left: 1.2em;
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 0.7em;
+
+}
+
+  }
