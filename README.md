@@ -2,4 +2,6 @@
 
 ![Fish](https://raw.githubusercontent.com/loicD77/LeMondedeFish/main/LeMondeDeFish-master/img/fish.png)
 
+![Fish](https://raw.githubusercontent.com/loicD77/LeMondedeFish/main/LeMondeDeFish-master/img/1000008215.jpg)
+
 Voici le lien si cela vous intéresse : https://lemondedefish.netlify.app/
